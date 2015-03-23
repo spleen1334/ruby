@@ -1,0 +1,21 @@
+KORISNI LINKOVI:
+# http://guides.rubygems.org/make-your-own-gem/
+# http://railsconftutorials.com/2013/sessions/crafting_gems.html
+
+STRUKTURA RUBY GEM
+------------------
+
+FOLDER:
+* LIB = Ruby code related to library
+* PKG = Temp dir, gem is generated here
+* TEST = unit test, scripts...
+* DOC = Optional, documentation
+* BIN = Optional, system tools, cli scripts
+* ROOT = gemspec, 
+
+FILES:
+* naziv_gema.gemspec
+
+
+CREATE GEM:
+* gem build <spec_file> # string_extend.gemspec
